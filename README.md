@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
@@ -567,7 +565,7 @@ footer {
       <small>01 / PROJECT</small>
       <h3>WHAT IS UNIVERSE : ONE?</h3>
       <p>
-        서로 다른 세계에서 모인 20명의 참가자.
+        서로 다른 행성에서 모인 21명의 참가자.
         단 하나의 목표를 향해 경쟁하는
         인터갤럭틱 아이돌 서바이벌 프로젝트.
       </p>
