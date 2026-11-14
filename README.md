@@ -651,7 +651,7 @@ const participants = [
     id: 'G01',
     gender: 'GIRLS',
     name: '에피나',
-    image: 'https://E791E500-EC91-45AF-82E5-A77B36358B1B.jpeg',
+    image: 'https://raw.githubusercontent.com/heddal083/UNIVERSEONE/main/E791E500-EC91-45AF-82E5-A77B36358B1B.jpeg',
     description: '참가자 소개'
   },
 
