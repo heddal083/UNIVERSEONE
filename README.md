@@ -626,34 +626,49 @@ footer {
 // 참가자 데이터
 // 실제 이름과 설명은 추후 교체
 
+
+// 참가자 데이터
+
 const participants = [
+  // BOYS
   {
     id: 'B01',
     gender: 'BOYS',
-    name: '참가자 이름',
-    image: 'https://이미지주소.jpg',
+    name: '참가자 1',
+    image: 'https://이미지주소1.jpg',
     description: '참가자 소개'
   },
   {
     id: 'B02',
     gender: 'BOYS',
-    name: '참가자 이름',
-    image: 'https://이미지주소.jpg',
+    name: '참가자 2',
+    image: 'https://이미지주소2.jpg',
     description: '참가자 소개'
   },
+
+  // GIRLS
   {
     id: 'G01',
     gender: 'GIRLS',
     name: '에피나',
     image: 'https://E791E500-EC91-45AF-82E5-A77B36358B1B.jpeg',
     description: '참가자 소개'
-  }
-];
-  ...Array.from({length:10}, (_,i) => ({
-    id: `G${String(i+1).padStart(2,'0')}`,
+  },
+
+  // 나머지 참가자들은 자동 생성
+  ...Array.from({length:8}, (_,i) => ({
+    id: `B${String(i+3).padStart(2,'0')}`,
+    gender: 'BOYS',
+    name: `BOY SUBJECT ${String(i+3).padStart(2,'0')}`,
+    image: `images/b${String(i+3).padStart(2,'0')}.jpg`,
+    description: 'PROFILE DATA NOT FOUND.'
+  })),
+
+  ...Array.from({length:9}, (_,i) => ({
+    id: `G${String(i+2).padStart(2,'0')}`,
     gender: 'GIRLS',
-    name: `GIRL SUBJECT ${String(i+1).padStart(2,'0')}`,
-    image: `images/g${String(i+1).padStart(2,'0')}.jpg`,
+    name: `GIRL SUBJECT ${String(i+2).padStart(2,'0')}`,
+    image: `images/g${String(i+2).padStart(2,'0')}.jpg`,
     description: 'PROFILE DATA NOT FOUND.'
   }))
 ];
