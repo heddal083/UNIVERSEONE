@@ -629,48 +629,157 @@ footer {
 
 // 참가자 데이터
 
+
 const participants = [
-  // BOYS
+  // ==========================
+  // BOYS (남자 참가자)
+  // ==========================
+
   {
     id: 'B01',
     gender: 'BOYS',
-    name: '참가자 1',
-    image: 'https://이미지주소1.jpg',
-    description: '참가자 소개'
+    name: '이름 입력',
+    image: '이미지 URL 입력',
+    description: '참가자 소개 입력'
   },
   {
     id: 'B02',
     gender: 'BOYS',
-    name: '참가자 2',
-    image: 'https://이미지주소2.jpg',
-    description: '참가자 소개'
+    name: '이름 입력',
+    image: '이미지 URL 입력',
+    description: '참가자 소개 입력'
+  },
+  {
+    id: 'B03',
+    gender: 'BOYS',
+    name: '이름 입력',
+    image: '이미지 URL 입력',
+    description: '참가자 소개 입력'
+  },
+  {
+    id: 'B04',
+    gender: 'BOYS',
+    name: '이름 입력',
+    image: '이미지 URL 입력',
+    description: '참가자 소개 입력'
+  },
+  {
+    id: 'B05',
+    gender: 'BOYS',
+    name: '이름 입력',
+    image: '이미지 URL 입력',
+    description: '참가자 소개 입력'
+  },
+  {
+    id: 'B06',
+    gender: 'BOYS',
+    name: '이름 입력',
+    image: '이미지 URL 입력',
+    description: '참가자 소개 입력'
+  },
+  {
+    id: 'B07',
+    gender: 'BOYS',
+    name: '이름 입력',
+    image: '이미지 URL 입력',
+    description: '참가자 소개 입력'
+  },
+  {
+    id: 'B08',
+    gender: 'BOYS',
+    name: '이름 입력',
+    image: '이미지 URL 입력',
+    description: '참가자 소개 입력'
+  },
+  {
+    id: 'B09',
+    gender: 'BOYS',
+    name: '이름 입력',
+    image: '이미지 URL 입력',
+    description: '참가자 소개 입력'
+  },
+  {
+    id: 'B10',
+    gender: 'BOYS',
+    name: '이름 입력',
+    image: '이미지 URL 입력',
+    description: '참가자 소개 입력'
   },
 
-  // GIRLS
+  // ==========================
+  // GIRLS (여자 참가자)
+  // ==========================
+
   {
     id: 'G01',
     gender: 'GIRLS',
     name: '에피나',
     image: 'https://raw.githubusercontent.com/heddal083/UNIVERSEONE/main/E791E500-EC91-45AF-82E5-A77B36358B1B.jpeg',
-    description: '참가자 소개'
+    description: '참가자 소개 입력'
   },
-
-  // 나머지 참가자들은 자동 생성
-  ...Array.from({length:8}, (_,i) => ({
-    id: `B${String(i+3).padStart(2,'0')}`,
-    gender: 'BOYS',
-    name: `BOY SUBJECT ${String(i+3).padStart(2,'0')}`,
-    image: `images/b${String(i+3).padStart(2,'0')}.jpg`,
-    description: 'PROFILE DATA NOT FOUND.'
-  })),
-
-  ...Array.from({length:9}, (_,i) => ({
-    id: `G${String(i+2).padStart(2,'0')}`,
+  {
+    id: 'G02',
     gender: 'GIRLS',
-    name: `GIRL SUBJECT ${String(i+2).padStart(2,'0')}`,
-    image: `images/g${String(i+2).padStart(2,'0')}.jpg`,
-    description: 'PROFILE DATA NOT FOUND.'
-  }))
+    name: '이름 입력',
+    image: '이미지 URL 입력',
+    description: '참가자 소개 입력'
+  },
+  {
+    id: 'G03',
+    gender: 'GIRLS',
+    name: '이름 입력',
+    image: '이미지 URL 입력',
+    description: '참가자 소개 입력'
+  },
+  {
+    id: 'G04',
+    gender: 'GIRLS',
+    name: '이름 입력',
+    image: '이미지 URL 입력',
+    description: '참가자 소개 입력'
+  },
+  {
+    id: 'G05',
+    gender: 'GIRLS',
+    name: '이름 입력',
+    image: '이미지 URL 입력',
+    description: '참가자 소개 입력'
+  },
+  {
+    id: 'G06',
+    gender: 'GIRLS',
+    name: '이름 입력',
+    image: '이미지 URL 입력',
+    description: '참가자 소개 입력'
+  },
+  {
+    id: 'G07',
+    gender: 'GIRLS',
+    name: '이름 입력',
+    image: '이미지 URL 입력',
+    description: '참가자 소개 입력'
+  },
+  {
+    id: 'G08',
+    gender: 'GIRLS',
+    name: '이름 입력',
+    image: '이미지 URL 입력',
+    description: '참가자 소개 입력'
+  },
+  {
+    id: 'G09',
+    gender: 'GIRLS',
+    name: '이름 입력',
+    image: '이미지 URL 입력',
+    description: '참가자 소개 입력'
+  },
+  {
+    id: 'G10',
+    gender: 'GIRLS',
+    name: '이름 입력',
+    image: '이미지 URL 입력',
+    description: '참가자 소개 입력'
+  }
 ];
 
 // ENTRY
