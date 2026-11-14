@@ -626,13 +626,28 @@ footer {
 // 실제 이름과 설명은 추후 교체
 
 const participants = [
-  ...Array.from({length:10}, (_,i) => ({
-    id: `B${String(i+1).padStart(2,'0')}`,
+  {
+    id: 'B01',
     gender: 'BOYS',
-    name: `BOY SUBJECT ${String(i+1).padStart(2,'0')}`,
-    image: `images/b${String(i+1).padStart(2,'0')}.jpg`,
-    description: 'PROFILE DATA NOT FOUND.'
-  })),
+    name: '참가자 이름',
+    image: 'https://이미지주소.jpg',
+    description: '참가자 소개'
+  },
+  {
+    id: 'B02',
+    gender: 'BOYS',
+    name: '참가자 이름',
+    image: 'https://이미지주소.jpg',
+    description: '참가자 소개'
+  },
+  {
+    id: 'G01',
+    gender: 'GIRLS',
+    name: '에피나',
+    image: 'https://E791E500-EC91-45AF-82E5-A77B36358B1B.jpeg',
+    description: '참가자 소개'
+  }
+];
   ...Array.from({length:10}, (_,i) => ({
     id: `G${String(i+1).padStart(2,'0')}`,
     gender: 'GIRLS',
